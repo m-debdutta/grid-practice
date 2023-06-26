@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#page {
+  height: 100%;
+  width: 90%;
+  background:linear-gradient(#79E0EE, #98EECC, #D0F5BE);
+  margin: 0em auto;
+}
+
+#page-header {
+  height: 10%;
+  text-align: center;
+  font-size: 3em;
+  padding: 5px;
+  font-weight: 500;
+}
+
+#container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(24, 50px);
+  grid-template-rows: 150px;
+}
+
+.big-blank{
+  grid-column: span 4;
+}
+
+.small-blank{
+  grid-column: span 2;
+}
+.hex{
+  grid-column: span 4;
+  border: 5px solid #D0F5BE;
+}
+
+#hex10{
+  background: url(https://images.nationalgeographic.org/image/upload/v1638890138/EducationHub/photos/seba-oasis.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#hex8,#hex2,#hex4,#hex19{
+  background: url(https://wallpaperaccess.com/full/3830895.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#hex14, #hex6,#hex9,#hex11{
+  background: url(https://www.farmersjournal.ie/WEBFILES/000/736/404/1914668-736404.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#hex7,#hex17,#hex15{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/India_-_Sights_%26_Culture_-_Rural_Brick_Making_Kiln_02_%284040024973%29.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#hex12,#hex3,#hex13{
+  background: url(https://www.mining.com/wp-content/uploads/2019/08/Bryah-Resources-manganese-general.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+
+#hex16, #hex1, #hex5, #hex18{
+  background: url(https://media.istockphoto.com/id/1185945324/photo/top-view-of-a-young-green-forest-in-spring-or-summer.webp?b=1&s=170667a&w=0&k=20&c=pGOo-IqEcaD_CTyXvjOvi58HwyNdtprJRKf_-QzHvOM= );
+  background-size:cover;
+  background-repeat: no-repeat;
+}
