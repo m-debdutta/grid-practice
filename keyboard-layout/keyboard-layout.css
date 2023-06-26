@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#page {
+  padding-top: 5%;
+  height: 100%;
+  width: 90%;
+  background-color: grey;
+  margin: 0em auto;
+}
+
+#keyboard{
+  display: grid;
+  grid-template-rows: repeat(5, 4.2em);
+  grid-template-columns: repeat(58,0.75em);
+  gap: 10px;
+  margin:0 auto;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 200  ;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 4;
+  background-color: #333333;
+  color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(66, 66, 66);
+}
+
+.arrow-key {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(66, 66, 66);
+}
+
+.key:hover{
+  cursor: pointer;
+}
+
+.key:active{
+  box-shadow: none;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* .arrow-key:active{
+  box-shadow: none;
+  font-weight: 300;
+  color: #ffffff;
+  border: none !important;
+} */
+
+#delete-key{
+  grid-column: span 6;
+}
+
+#tab{
+  grid-column: span 6;
+}
+
+#return{
+  grid-column: span 7;
+}
+
+#capslock{
+  grid-column: span 7;
+}
+
+#shift{
+  grid-column: span 9;
+}
+
+#command{ 
+  grid-column: span 5;
+}
+
+#space{
+  grid-column: span 20;
+}
+
+.nav-key{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 45% 45%;
+  /* gap: 10px; */
+  grid-template-areas: "top" "bottom";
+  background-color:transparent  ;
+  box-shadow: none;
+  border: none;
+
+}
+
+.empty{
+  height: 98%;
+  border: none;
+  grid-area: top;
+  box-shadow: none;
+}
+
+#up-arrow{
+  height: 98%;
+  grid-area: top;
+  border-radius: 4px;
+}
+
+#down-arrow,#left-arrow,#right-arrow{
+  height: 98%;
+  grid-area: bottom;
+  border-radius: 4px;
+}
+
+.left-modifier-key{
+  align-self: flex-end;
+  padding-right: 10px;
+}
+
+.right-modifier-key{
+  align-self: flex-start;
+  padding-left: 10px;
+}
+
+.left-special-key{
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.right-special-key{
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+}
