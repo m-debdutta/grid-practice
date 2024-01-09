@@ -28,7 +28,7 @@
   border: 2px solid white;
 }
 
-.key {
+.keyboard-button {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -53,11 +53,11 @@
   box-shadow: 4px 4px 10px rgb(66, 66, 66);
 }
 
-.key:hover{
+.keyboard-button:hover{
   cursor: pointer;
 }
 
-.key:active{
+.keyboard-button:active{
   box-shadow: none;
   font-weight: 300;
   color: #ffffff;
@@ -70,7 +70,7 @@
   border: none !important;
 } */
 
-#delete-key{
+#delete-keyboard-button{
   grid-column: span 6;
 }
 

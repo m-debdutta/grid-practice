@@ -1,0 +1,63 @@
+<!-- <html>
+  <head>
+    <title>media query</title>
+    <link rel="stylesheet" href="media-qurey.css" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <section id="page">
+      <h1 class="heading">This is a responsive page</h1>
+      <header class="page-header">
+        <ul class="unordered-list">
+          <li class="list-item">icon</li>
+          <li class="list-item">home</li>
+          <li class="list-item">about us</li>
+          <li class="list-item">contact us</li>
+        </ul>
+      </header>
+      <aside class="side-bar">
+        <h2>This is a side bar</h2>
+        <ul>
+          <li>Debu</li>
+          <li>Riya</li>
+          <li>Gourab</li>
+          <li>Utsab</li>
+          <li>Swagato</li>
+          <li>Riya</li>
+          <li>Riya</li>
+        </ul>
+      </aside>
+      <main class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+        sequi corrupti porro quo possimus nulla error quaerat, et minima dolore
+        iste obcaecati aut! Maxime, labore illum? Deleniti explicabo ullam
+        incidunt. Sunt, blanditiis exercitationem enim sint, aliquid optio,
+        consequuntur natus placeat nesciunt quod tempora nemo soluta quos
+        doloremque mollitia quibusdam maxime modi illo est ducimus
+        necessitatibus. Obcaecati fuga blanditiis veritatis iste. Animi nostrum
+        mollitia ullam laudantium ab sit sed iusto unde provident distinctio
+        enim laboriosam in expedita quo labore odit, temporibus, nulla minima
+        optio. Debitis accusantium nisi at maxime laudantium reiciendis?
+        Quibusdam maiores officiis eum culpa nobis? Aperiam dolor magni maxime
+        quisquam perspiciatis officiis pariatur quae consequuntur nemo veniam
+        facere, sequi unde deleniti autem ea recusandae! Vel excepturi placeat
+        sed ex! Laborum unde ab excepturi deleniti possimus ipsum velit delectus
+        quod commodi doloremque deserunt similique aliquam in sit dolore, fugiat
+        accusamus ea ducimus sed temporibus voluptatibus. Totam voluptates
+        commodi alias aliquid?
+      </main>
+      <aside class="adds">
+        <h2>This is an adv</h2>
+        <div class="img"></div>
+      </aside>
+      <footer class="page-footer">
+        <ul class="unordered-list">
+          <li class="list-item">icon</li>
+          <li class="list-item">home</li>
+          <li class="list-item">about us</li>
+          <li class="list-item">contact us</li>
+        </ul> 
+      </footer>
+    </section>
+  </body>
+</html> -->
